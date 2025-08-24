@@ -53,7 +53,7 @@
       <img class="about-avatar" src="images/me.jpg" alt="個人照片" />
       <div class="about-info">
         <div>Name: Liou Yu Ting</div>
-        <div>Date of Birth: March 12, 2000</div>
+        <div>Date of Birth: November 02, 2001</div>
         <div>Location: Zhongli District, Taoyuan City</div>
         <div>Education: Multimedia Design, NTUST</div>
       </div>
@@ -233,26 +233,26 @@
 <div class="project-links">
   <div class="project-link-item">
     <div class="project-link-title">Prototype</div>
-    <a href="https://www.figma.com/proto/hCGBKK6b0XMMIADQY54bTR/Prototype?node-id=305-304&p=f&m=dev&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=5%3A24&t=0gg2LLtcDXtTmruL-1" target="_blank">
+    <a href="https://www.figma.com/proto/hCGBKK6b0XMMIADQY54bTR/Prototype?node-id=305-304&p=f&t=W3gdw2QLhu2HmLHk-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=5%3A24" target="_blank">
       <img src="images/prototypecode.png" alt="Prototype Code" class="project-link-image">
     </a>
   </div>
 
   <div class="project-link-item">
     <div class="project-link-title">Final Design</div>
-    <a href="https://www.figma.com/proto/Zf1oMwzaNBP9cbRQsCZw0U/ordersystem?node-id=305-304&p=f&m=dev&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=5%3A24&t=mRFg3zP7gaSwQqQ2-1" target="_blank">
+    <a href="https://www.figma.com/proto/Zf1oMwzaNBP9cbRQsCZw0U/ordersystem?node-id=293-205&p=f&t=7Fde1oUtQA5ezDNz-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=5%3A24" target="_blank">
       <img src="images/finalcode.png" alt="Final Code" class="project-link-image">
     </a>
   </div>
 
   <div class="project-link-item">
     <div class="project-link-title">Github</div>
-    <a href="https://你的-github-網址" target="_blank">
+    <a href="https://liouyuting112.github.io/order/" target="_blank">
       <img src="images/githubcode.png" alt="Github Code" class="project-link-image">
     </a>
   </div>
 </div>
-<div class="projects-wrapper01" id="redesign">
+<div id="redesign"class="projects-wrapper01" id="redesign">
   <div class="projects-text03">Redesign</div>
   <div class="project-title01">中油 PAY 查詢介面優化設計</div>
 </div>
@@ -277,30 +277,62 @@
   <img src="images/cpc01.png" alt="中油 PAY 畫面" class="project-app-img-right">
   </div>
 <div class="flow-nav">
-      <div class="flow-step active first">中油Pay<br>介紹</div>
+      <div class="flow-step active first"data-target="redesign">中油Pay<br>介紹</div>
       <div class="flow-line"></div>
-      <div class="flow-step">使用者<br>情境</div>
+      <div class="flow-step"data-target="user-scenario">使用者<br>情境</div>
       <div class="flow-line"></div>
-      <div class="flow-step">Before<br>&<br>After</div>
+      <div class="flow-step"data-target="before-after">Before<br>&<br>After</div>
       <div class="flow-line"></div>
-      <div class="flow-step">結語<br>&<br>反思</div>
+      <div class="flow-step"data-target="conclusion">結語<br>&<br>反思</div>
       <div class="flow-line"></div>
-      <div class="flow-step last">統一發票<br>介面優化</div>
+      <div class="flow-step last"data-target="invoice-app">統一發票<br>介面優化</div>
     </div>
 </div>
 </div>
 <!-- Persona 區塊 -->
 <div class="bg-layer"></div>
-<div class="persona-section">
+<div id="user-scenario" class="persona-section">
   <div class="persona-title">使用者情境 Persona</div>
+<div class="persona-container">
+  <div class="cards-column">
+    <!-- 第一張卡片 -->
+    <div class="persona-card complex-card">
+      <div class="card-content">
+        <img class="card-img" src="images/woman01.png" alt="小華" />
+        <div class="card-text">
+          <div class="card-name">小華，25歲</div>
+          <div class="card-desc">
+            <p>背景：上班族，喜歡快速結帳。</p>
+            <p>動機：想快速找到支持信用卡或行動支付的加油站。</p>
+            <p>行為：</p>
+            <p class="indent">1.打開中油PAY App，尋找支持信用卡或行動支付的加油站。</p>
+            <p class="indent">2.利用篩選功能，篩選出符合需求的加油站。</p>
+            <p class="indent">3.找到適合加油站，節省時間。</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  <div class="persona-card">
-    <div class="persona-img"></div>
+    <!-- 第二張卡片 -->
+    <div class="persona-card complex-card">
+      <div class="card-content">
+        <img class="card-img" src="images/man.png" alt="小陳" />
+        <div class="card-text">
+          <div class="card-name">小陳，29歲</div>
+          <div class="card-desc">
+          <p>背景：常到外縣市出差的上班族</p>
+          <p>動機：希望快速找到能夠行動支付的加油站，加速結帳時間。</p>
+          <p>行為：</p>
+          <p class="indent">1. 打開中油PAY App，尋找附近提供行動支付的加油站。</p>
+          <p class="indent">2. 利用篩選功能，找到離目的地最近的加油站。</p>
+          <p class="indent">3. 找到符合需求的加油站。</p>
+        </div>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <div class="persona-card">
-    <img src="images/cpc02.png" alt="Persona Image" 
-         style="width:38.854vw; height:31.979vw; object-fit:cover;">
+  <img class="persona-image" src="images/cpc02.png" alt="Persona Image" />
 <!-- 優化功能說明 -->
 <div class="persona-description-card">
   <div class="description-wrapper">
@@ -313,17 +345,17 @@
 </div>
 </div>
 <div class="flow-nav01">
-      <div class="flow-step01">中油Pay<br>介紹</div>
+      <div class="flow-step01"data-target="redesign">中油Pay<br>介紹</div>
       <div class="flow-line"></div>
-      <div class="flow-step01 second">使用者<br>情境</div>
+      <div class="flow-step01 second"data-target="user-scenario">使用者<br>情境</div>
       <div class="flow-line"></div>
-      <div class="flow-step">Before<br>&<br>After</div>
+      <div class="flow-step"data-target="before-after">Before<br>&<br>After</div>
       <div class="flow-line"></div>
-      <div class="flow-step">結語<br>&<br>反思</div>
+      <div class="flow-step"data-target="conclusion">結語<br>&<br>反思</div>
       <div class="flow-line"></div>
-      <div class="flow-step last">統一發票<br>介面優化</div>
+      <div class="flow-step last"data-target="invoice-app">統一發票<br>介面優化</div>
     </div>
-<div class="left-text-title">
+<div id="before-after" class="left-text-title">
   Redesign前後畫面對比
 <div class="left-text-images">
     <img class="left-text-image" src="images/cpc04.png" alt="Redesign 前後對比 1">
@@ -332,15 +364,15 @@
 </div>
 
 <div class="flow-nav02">
-      <div class="flow-step02">中油Pay<br>介紹</div>
+      <div class="flow-step02"data-target="redesign">中油Pay<br>介紹</div>
       <div class="flow-line"></div>
-      <div class="flow-step02">使用者<br>情境</div>
+      <div class="flow-step02"data-target="user-scenario">使用者<br>情境</div>
       <div class="flow-line"></div>
-      <div class="flow-step02 third">Before<br>&<br>After</div>
+      <div class="flow-step02 third"data-target="before-after">Before<br>&<br>After</div>
       <div class="flow-line"></div>
-      <div class="flow-step02">結語<br>&<br>反思</div>
+      <div class="flow-step02"data-target="conclusion">結語<br>&<br>反思</div>
       <div class="flow-line"></div>
-      <div class="flow-step02 last">統一發票<br>介面優化</div>
+      <div class="flow-step02 last"data-target="invoice-app">統一發票<br>介面優化</div>
     </div>
 </div>
 </div>
@@ -352,7 +384,7 @@
     結語&反思
   </div>
   </div>
-<div class="content-row">
+<div id="conclusion" class="content-row">
   <img class="left-text-image02" src="images/cpc06.png" alt="Redesign 前後對比">
   <div class="right-text-description">
     在這次的 Redesign 中，我從實際打工經驗與使用者痛點出發，針對中油 PAY 查詢功能做出幾項優化，像是補上常被詢問的「直營／民營」標示、加入更明確的支付方式說明，並強化篩選功能，提升資訊清晰度與使用效率。<br><br>
@@ -360,23 +392,26 @@
     未來若有更多使用者測試與實際資料分析，還能進一步驗證這些優化是否達成目標，也希望這次的設計能作為中油數位轉型的參考方向之一。
       <div class="prototype-box">
       <div class="prototype-title">Figma Prototype</div>
-      <img class="prototype-image" src="images/cpccode.png" alt="Figma Prototype 預覽">
+      <a href="https://www.figma.com/proto/swnix5LYjICrKbjr9mr9bj/redesign--CPC-?node-id=7062-7&p=f&t=I0e7KoY79wMajLWy-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=7062%3A7&show-proto-sidebar=1" target="_blank">
+  <img class="prototype-image01" src="images/cpccode.png" alt="Figma Prototype 預覽">
+</a>
     </div>
   </div>
 </div>
 <div class="flow-nav03">
-      <div class="flow-step03">中油Pay<br>介紹</div>
+      <div class="flow-step03"data-target="redesign">中油Pay<br>介紹</div>
       <div class="flow-line"></div>
-      <div class="flow-step03">使用者<br>情境</div>
+      <div class="flow-step03"data-target="user-scenario">使用者<br>情境</div>
       <div class="flow-line"></div>
-      <div class="flow-step03 third">Before<br>&<br>After</div>
+      <div class="flow-step03 "data-target="before-after">Before<br>&<br>After</div>
       <div class="flow-line"></div>
-      <div class="flow-step03">結語<br>&<br>反思</div>
+      <div class="flow-step03 fourth"data-target="conclusion">結語<br>&<br>反思</div>
       <div class="flow-line"></div>
-      <div class="flow-step03 last">統一發票<br>介面優化</div>
+      <div class="flow-step03 last"data-target="invoice-app">統一發票<br>介面優化</div>
     </div>
 <div class="bg-layer-2"></div>
-<div class="invoice-section">
+<div id="invoice-app" class="統一發票區塊"></div>
+<div id="invoice-app01" class="invoice-section">
   <div class="invoice-left">
     <div class="text-center redesign-title">
       Redesign
@@ -405,24 +440,122 @@
   </div>
 </div>
   <div class="flow-nav04">
-      <div class="flow-step04 active first">統一發票<br>APP介紹</div>
+      <div class="flow-step04 active first"data-target="invoice-app01">統一發票<br>APP介紹</div>
       <div class="flow-line"></div>
-      <div class="flow-step04">使用者<br>情境</div>
+      <div class="flow-step04"data-target="user-scenario01">使用者<br>情境</div>
       <div class="flow-line"></div>
-      <div class="flow-step04">Before<br>&<br>After</div>
+      <div class="flow-step04"data-target="before-after01">Before<br>&<br>After</div>
       <div class="flow-line"></div>
-      <div class="flow-step04">結語<br>&<br>反思</div>
+      <div class="flow-step04"data-target="conclusion01">結語<br>&<br>反思</div>
     </div>
+  <div id="user-scenario01">
   <div class="flow-subtitle">使用者情境 Persona</div>
-  <div class="container">
-  <div class="persona-card01">
-    <div class="persona-img01"></div>
+  <div class="persona-container02">
+  <div class="cards-column">
+    <!-- 第一張卡片 -->
+    <div class="persona-card complex-card-02">
+      <div class="card-content">
+        <img class="card-img" src="images/man01.png" alt="小華" />
+        <div class="card-text">
+          <div class="card-name">陳先生，45歲</div>
+          <div class="card-desc">
+            <p>背景：自由業者，平時使用載具條碼管理發票。</p>
+            <p>動機：希望載具條碼標示清楚，操作時不會混淆。</p>
+            <p>行為：</p>
+            <p class="indent">1.打開統一發票 APP，確認「載具條碼」標示位置。</p>
+            <p class="indent">2.掃描套件優化，過程更流暢。</p>
+            <p class="indent">3.完成操作，確認發票載入系統。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 第二張卡片 -->
+    <div class="persona-card complex-card-02">
+      <div class="card-content">
+        <img class="card-img" src="images/woman02.png" alt="小陳" />
+        <div class="card-text">
+          <div class="card-name">王小姐，50歲</div>
+          <div class="card-desc">
+            <p>背景：家庭主婦，使用手機掃碼對獎發票。</p>
+            <p>動機：對獎專區為提供掃碼對獎，操作不易。</p>
+            <p>行為：</p>
+            <p class="indent">1. 打開統一發票 APP，點擊對獎專區。</p>
+            <p class="indent">2. 對獎專區新增掃碼對獎，增加便利性。</p>
+            <p class="indent">3. 確認是否有中獎。</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="persona-card01">
-    <div class="persona-img01"></div>
+  <!-- 右側優化功能說明 -->
+  <div class="optimization-info">
+    <span class="optimization-title">主要優化功能:</span><br />
+    <div class="optimization-desc">
+  <p>• 起始畫面導引優化，將進入 APP 時的介紹動畫改為不具誤導性的非互動式設計，減少使用者誤點、誤觸情形。</p>
+  <p>• 載具跳轉標示明確化，將原本僅顯示「條碼」的標示優化為「載具條碼」，提升操作直覺性與辨識度。</p>
+  <p>• 對獎專區新增，掃描輸入Qrcode掃描對獎。</p>
+</div>
   </div>
 </div>
+  <div class="flow-nav05">
+      <div class="flow-step05"data-target="invoice-app01">統一發票<br>APP介紹</div>
+      <div class="flow-line"></div>
+      <div class="flow-step05 second"data-target="user-scenario01">使用者<br>情境</div>
+      <div class="flow-line"></div>
+      <div class="flow-step05"data-target="before-after01">Before<br>&<br>After</div>
+      <div class="flow-line"></div>
+      <div class="flow-step05"data-target="conclusion01">結語<br>&<br>反思</div>
+    </div>
+<div id="before-after01" class="compare-section">
+  <!-- 左邊：標題與對比圖片 -->
+  <div class="left-side">
+    <div class="left-text-title02">Redesign前後畫面對比</div>
+    <img class="compare-image" src="images/t03.png" alt="Redesign前後畫面對比">
+  </div>
+
+  <!-- 右邊：結語 & 反思 -->
+  <div class="right-side">
+<div id="conclusion01" class="right-title">結語&反思</div>
+    <div class="right-desc">
+      本次 Redesign 是從實際使用經驗與使用者評論出發，聚焦於兩大關鍵痛點：介面導引不清與對獎專區不夠直觀。透過更明確的載具標示與視覺引導設計，減少使用者在初始頁面的誤點行為。同時，針對使用者廣泛反映對獎流程不夠流暢，也提出新增掃描輸入按鈕，讓掃描流程更加順暢。<br/>
+      這次設計過程讓我深刻體會到：即使是日常生活中看似簡單的政府應用，也需要細膩地考量使用者情境與情緒。設計的本質，不只是改變畫面，而是讓每一位使用者更輕鬆地完成他們的任務。
+    </div>
+    <div class="right-subtitle">Figma Prototype</div>
+    <a href="https://www.figma.com/proto/Ymxyd4mjGBRx4qI9fmHq5K/redesign?node-id=5020-2&t=psZV9NC9gCpZnb2B-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=5020%3A2" target="_blank">
+  <img class="prototype-image" src="images/tcode.png" alt="Figma Prototype">
+</a>
+</div>
+<div class="flow-nav06">
+  <div class="flow-step06" data-target="invoice-app01">統一發票<br>APP介紹</div>
+  <div class="flow-line"></div>
+  <div class="flow-step06" data-target="user-scenario01">使用者<br>情境</div>
+  <div class="flow-line"></div>
+  <div class="flow-step06 third" data-target="before-after01">Before<br>&<br>After</div>
+  <div class="flow-line"></div>
+  <div class="flow-step06" data-target="conclusion01">結語<br>&<br>反思</div>
+</div>
+
+<hr class="section-divider">
+
+<footer id="contact" class="site-footer">
+  <div class="footer-left">
+    <div class="footer-name">Liou Yu Ting</div>
+    <div class="footer-contact">
+      <div>Gmail: <a href="mailto:love7053150@gmail.com">love7053150@gmail.com</a></div>
+      <div>Line: 0909114577</div>
+    </div>
+  </div>
+
+  <div class="footer-right">
+    <a href="#about" class="scroll-link" data-offset="-20">About Me</a>
+    <a href="#project" class="scroll-link" data-offset="160">Project</a>
+    <a href="#redesign" class="scroll-link" data-offset="140">Redesign-CPC</a>
+    <a href="#invoice-app01" class="scroll-link" data-offset="155">Redesign-MOF</a>
+  </div>
+</footer>
   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   <script src="main.js"></script>
 </body>
+
 </html>
